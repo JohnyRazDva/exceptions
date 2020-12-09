@@ -23,7 +23,6 @@ public class Runner {
             purchaseList.printList();
             Class c;
             Comparator comparator = null;
-            System.out.println("casdasd");
             try {
                 c = Class.forName(comparatorName);
                 comparator = (Comparator) c.newInstance();
